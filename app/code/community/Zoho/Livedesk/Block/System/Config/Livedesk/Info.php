@@ -12,8 +12,8 @@ class Zoho_Livedesk_Block_System_Config_Livedesk_Info
 
     public function render(Varien_Data_Form_Element_Abstract $element) {
         $html = '<div style="border:1px solid #CCCCCC;margin-bottom:10px;padding:10px 10px 10px 10px;">
-            <h4>About Zoho LiveDesk</h4>
-            <p>Engage with your customers in real time. Chat and deliver unbeatable customer support. Convert more, grow faster.</p>
+            <h4>NOTE:</h4>
+            <p>We have now re-named our platform as Zoho SalesIQ. The platform is now moving towards store visitor monitoring and real-time sales intelligence.<br/>Please install <a href="http://www.magentocommerce.com/magento-connect/catalog/product/view/id/25251/s/zoho-salesiq/">our new plugin</a> to get latest updates</p>
           </div>';
         return $html;
     }
