@@ -1,0 +1,21 @@
+<?php
+/**
+ * @category   Zoho
+ * @package    Zoho_Livedesk
+ * @author     LiveDesk Team
+ * @website    http://www.zoho.com/livedesk
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+?>
+<?php if ($this->isQuickChatEnabled()): ?>
+<button class="button" 
+        title="<?php echo $this->getLabel(); ?>"
+        onclick="if ($zoho) {
+                  $zoho.livedesk.floatwindow.visible('show');
+                  $zoho.livedesk.visitor.question(<?php echo $this->getQuestion(); ?>);
+                  $zoho.livedesk.chat.start();
+                 }
+                 return false;">
+  <span><span><?php echo $this->getLabel(); ?></span></span>
+</button>
+<?php endif ?>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<package>
+    <name>Zoho_LiveDesk</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>With Zoho LiveDesk you can instantly connect to your customers and deliver instant support</summary>
+    <description>It&#x2019;s time where communication with our customers have gone one step ahead in real time, Give your customers access to real-life agents who they connect instantly. Real names, real photos, real people, real easy. With Zoho LiveDesk you can instantly connect to your customers and deliver instant support.&#xD;
+&#xD;
+Why LiveDesk?&#xD;
+&#xD;
+In LiveDesk, you can customize the chat window color, text, logo, icons, input fields (Name, Email, contact number) and many more.&#xD;
+&#xD;
+In the era of real-time communication and instant-everything, customers expect a prompt answer to their questions. With its neat web interface, Zoho LiveDesk allows agents to pick customer chat requests and help them to solve their problems instantly through Live Chat.&#xD;
+&#xD;
+You can easily create, configure and customize your LiveDesk within minutes, Embed the customizable chat widgets into your website and provide a personalized Support experience to your customers.&#xD;
+&#xD;
+Our Features&#xD;
+&#xD;
+* Chat Embed Customization&#xD;
+* Support Customers from your Mobile Devices&#xD;
+* Gaze into the future and see what your customers type as they type it and magically make custom solutions appear before they ever hit submit&#xD;
+* Zoho LiveDesk Integration with Zoho CRM and Zoho Support&#xD;
+* Powerful Reporting&#xD;
+* Advanced organizational features, which includes departments.&#xD;
+* Chat transfer and Monitor&#xD;
+* Categorized Canned Messages&#xD;
+* IP Blocking&#xD;
+* Agent roles&#xD;
+* Business hour&#xD;
+Need to Know More? Visit our website: https://www.zoho.com/livedesk/help/getting-started-with-live-chat.html&#xD;
+&#xD;
+Install Zoho LiveDesk plugin now and sign up for a free account at https://livedesk.zoho.com/register.sas?source=Magento.description</description>
+    <notes>Initial release</notes>
+    <authors><author><name>Zoho LiveDesk</name><user>livedesk</user><email>support@zoholivedesk.com</email></author></authors>
+    <date>2014-03-21</date>
+    <time>10:36:20</time>
+    <contents><target name="magecommunity"><dir name="Zoho"><dir name="Livedesk"><dir name="Block"><file name="Button.php" hash="c81d3a6fbb1b84d8629f349903c8341d"/><file name="Livedesk.php" hash="12c9c59fed0769833e89636b3f12f4ea"/><dir name="System"><dir name="Config"><dir name="Livedesk"><file name="Info.php" hash="c70d4f022a6eb30b2e5d696823debaee"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="869b3bf9a8903f990c30022b7a19434b"/></dir><dir name="Model"><file name="Livedesk.php" hash="5fe7244567df058b57bafd9eff55dc78"/></dir><dir name="controllers"><file name="IndexController.php" hash="70dba4e3b3de23e18e25f41cc65119a7"/></dir><dir name="etc"><file name="adminhtml.xml" hash="333d7e1455b8616860f5341d514dd82b"/><file name="config.xml" hash="5c38a986e9a0ef9aa34ededed86980bc"/><file name="system.xml" hash="ee50b0805ea1701a8f4b2490044ed374"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="livedesk.xml" hash="3478e46d42bac7f110b7036699da1389"/></dir><dir name="template"><dir name="livedesk"><file name="button.phtml" hash="dc3be76cea670bf7607034a79b8432e7"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Zoho_Livedesk.xml" hash="78096aa3ca15e0f4aa9931ef5532cc72"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
