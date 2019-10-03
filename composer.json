@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Zoho_LiveDesk",
+    "name": "OpenMageModuleFostering\/Zoho_LiveDesk",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "With Zoho LiveDesk you can instantly connect to your customers and deliver instant support",
     "authors": [
-    {
-        "name": "Zoho LiveDesk",
-        "email": "support@zoholivedesk.com"
-    }
-],
+        {
+            "name": "Zoho LiveDesk",
+            "email": "support@zoholivedesk.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
