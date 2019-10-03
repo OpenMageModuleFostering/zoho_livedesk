@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Zoho_LiveDesk",
+    "name": "openmage-module-fostering\/zoho_livedesk",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "With Zoho LiveDesk you can instantly connect to your customers and deliver instant support",
     "authors": [
